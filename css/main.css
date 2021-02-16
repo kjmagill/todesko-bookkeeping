@@ -1984,6 +1984,7 @@ img {
   position: relative;
   overflow: hidden;
   padding: 60px 0px 0px;
+  background-color: #eaecf4;
 }
 
 .services-section .content-column {
@@ -2032,7 +2033,7 @@ img {
   top: 80px;
   left: 33px;
   color: #f2c202;
-  background: #fff;
+  background: #eaecf4;
   padding: 10px 50px 0 10px;
 }
 
@@ -2075,10 +2076,10 @@ img {
   content: '';
   width: 40px;
   height: 70px;
-  background: #fff;
+  background: #eaecf4;
   top: -78px;
   left: 90px;
-  box-shadow: 0 -10px 0 0 #fff;
+  box-shadow: 0 -10px 0 0 #eaecf4;
   border-top: 2px solid #f2c202;
 }
 
@@ -2393,7 +2394,6 @@ img {
 .experience-section {
   position: relative;
   padding: 120px 0px 230px;
-  background-color: #eaecf4;
 }
 
 .experience-section .pattern-layer {
