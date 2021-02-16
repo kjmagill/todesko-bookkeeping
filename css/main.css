@@ -1637,6 +1637,7 @@ img {
 
 .main-slider .content-column .btn-box .theme-btn {
   margin-right: 15px;
+  margin-top: 4px;
 }
 
 .main-slider .active .content-column .btn-box {
@@ -5357,4 +5358,12 @@ img {
 
 .footer-style-two .footer-bottom .nav-column ul li a:hover {
   color: #eaaa00;
+}
+
+@media only screen and (max-width: 400px) {
+  .call-to-action-section .btns-box a {
+    margin: 0px 8px 15px;
+    font-size: 12px;
+    padding: 19px 20px;
+  }
 }
