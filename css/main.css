@@ -3602,7 +3602,7 @@ img {
   position: relative;
   color: #ffffff;
   font-size: 15px;
-  opacity: 0.2;
+  opacity: 0.35;
   text-align: right;
 }
 
@@ -5360,7 +5360,7 @@ img {
   color: #eaaa00;
 }
 
-@media only screen and (max-width: 400px) {
+@media all and (max-width: 450px) {
   .call-to-action-section .btns-box a {
     margin: 0px 8px 15px;
     font-size: 12px;
