@@ -5360,10 +5360,17 @@ img {
   color: #eaaa00;
 }
 
-@media all and (max-width: 450px) {
-  .call-to-action-section .btns-box a {
-    margin: 0px 8px 15px;
-    font-size: 12px;
-    padding: 19px 20px;
+@media screen and (max-width: 450px) {
+  .main-header .header-upper .logo-box .logo {
+    width: 80%;
+    height: auto;
+  }
+  .main-slider .content-column .btn-box .theme-btn {
+    margin-right: 5px;
+  }
+  .mobile-btn {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 13px 35px;
   }
 }
