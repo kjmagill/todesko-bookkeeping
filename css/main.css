@@ -5360,17 +5360,14 @@ img {
   color: #eaaa00;
 }
 
-@media screen and (max-width: 450px) {
-  .main-header .header-upper .logo-box .logo {
-    width: 80%;
-    height: auto;
-  }
-  .main-slider .content-column .btn-box .theme-btn {
-    margin-right: 5px;
-  }
-  .mobile-btn {
-    font-size: 14px;
-    line-height: 30px;
-    padding: 13px 35px;
-  }
+.blue-bg {
+  background-color: #161616;
+}
+
+.recolor-white {
+  color: whitesmoke !important;
+}
+
+.bottom-spacing {
+  margin-bottom: 50px;
 }

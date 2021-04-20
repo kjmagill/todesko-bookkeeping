@@ -114,7 +114,7 @@
 
   .main-header {
     position: relative;
-    background-color: #0d1328;
+    background-color: #020612;
   }
 
   .main-menu {
@@ -788,5 +788,20 @@
   .blog-detail .inner-boxed blockquote {
     font-size: 20px;
     padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .main-header .header-upper .logo-box .logo {
+    width: 80%;
+    height: auto;
+  }
+  .main-slider .content-column .btn-box .theme-btn {
+    margin-right: 5px;
+  }
+  .mobile-btn {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 13px 35px;
   }
 }
