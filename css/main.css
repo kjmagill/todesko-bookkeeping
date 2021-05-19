@@ -2497,6 +2497,13 @@ img {
   max-width: 400px;
 }
 
+.membership-badge {
+  margin: 0 auto;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  max-width: 300px;
+}
+
 /*** 
 
 ====================================================================
@@ -3186,7 +3193,7 @@ img {
 
 .talk-section {
   position: relative;
-  padding: 130px 0px 80px;
+  padding: 80px 0px 80px;
   background-color: #eaecf4;
 }
 
