@@ -3668,6 +3668,10 @@ img {
   overflow: hidden;
   padding: 200px 0px 130px;
   background-size: cover;
+  -moz-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #020612;
 }
 
 .page-title:before {
@@ -5394,4 +5398,17 @@ img {
 
 .dec-none {
   text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .contact-list {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .page-title {
+    background-size: 700px auto;
+    -moz-background-size: 700px auto;
+  }
 }
