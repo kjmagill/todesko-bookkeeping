@@ -5386,6 +5386,12 @@ img {
   max-width: 330px;
 }
 
+.beware {
+  margin: 40px auto 80px;
+  text-align: center;
+  font-size: 3rem;
+}
+
 .dec-none {
   text-decoration: none;
 }
